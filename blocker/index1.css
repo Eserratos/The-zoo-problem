@@ -1,0 +1,245 @@
+ the <head> section:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Animal Information</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Section styles */
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading styles */
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+
+        /* Article styles */
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        /* List styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* Link styles */
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main header for the page -->
+    <header>
+        <h1>Welcome to the Zoo Animal Information Page</h1>
+        <p>This page provides detailed information about the various animals in our zoo.</p>
+    </header>
+
+    <!-- Section for Bears -->
+    <section>
+        <h2>Bears</h2>
+        <ul>
+            <!-- List of bears -->
+            <li>
+                <article>
+                    <h3>Ollie</h3>
+                    <p>Ollie is a playful bear who loves to climb trees.</p>
+                    <a href="https://en.wikipedia.org/wiki/Bear" target="_blank">More about bears</a>
+                    <img src="ollie.jpg" alt="Ollie the Bear">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Mona</h3>
+                    <p>Mona enjoys long naps and fishing in the river.</p>
+                    <a href="https://en.wikipedia.org/wiki/Bear" target="_blank">More about bears</a>
+                    <img src="mona.jpg" alt="Mona the Bear">
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section for Giraffes -->
+    <section>
+        <h2>Giraffes</h2>
+        <ul>
+            <!-- List of giraffes -->
+            <li>
+                <article>
+                    <h3>Frankie</h3>
+                    <p>Frankie is the tallest giraffe in the zoo with a gentle personality.</p>
+                    <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank">More about giraffes</a>
+                    <img src="frankie.jpg" alt="Frankie the Giraffe">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Coconut</h3>
+                    <p>Coconut loves eating leaves from the highest branches.</p>
+                    <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank">More about giraffes</a>
+                    <img src="coconut.jpg" alt="Coconut the Giraffe">
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section for Lions -->
+    <section>
+        <h2>Lions</h2>
+        <ul>
+            <!-- List of lions -->
+            <li>
+                <article>
+                    <h3>Mella</h3>
+                    <p>Mella is a strong lioness who leads her pride with grace.</p>
+                    <a href="https://en.wikipedia.org/wiki/Lion" target="_blank">More about lions</a>
+                    <img src="mella.jpg" alt="Mella the Lioness">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Karl</h3>
+                    <p>Karl is known for his loud roar that can be heard across the zoo.</p>
+                    <a href="https://en.wikipedia.org/wiki/Lion" target="_blank">More about lions</a>
+                    <img src="karl.jpg" alt="Karl the Lion">
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section for Monkeys -->
+    <section>
+        <h2>Monkeys</h2>
+        <ul>
+            <!-- List of monkeys -->
+            <li>
+                <article>
+                    <h3>Cookie</h3>
+                    <p>Cookie loves to swing from branch to branch and play with her friends.</p>
+                    <a href="https://en.wikipedia.org/wiki/Monkey" target="_blank">More about monkeys</a>
+                    <img src="cookie.jpg" alt="Cookie the Monkey">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Earl</h3>
+                    <p>Earl is a curious monkey who is always getting into mischief.</p>
+                    <a href="https://en.wikipedia.org/wiki/Monkey" target="_blank">More about monkeys</a>
+                    <img src="earl.jpg" alt="Earl the Monkey">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Banana Pudding</h3>
+                    <p>Banana Pudding is a playful monkey with a love for bananas.</p>
+                    <a href="https://en.wikipedia.org/wiki/Monkey" target="_blank">More about monkeys</a>
+                    <img src="bananapudding.jpg" alt="Banana Pudding the Monkey">
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section for Alligators -->
+    <section>
+        <h2>Alligators</h2>
+        <ul>
+            <!-- List of alligators -->
+            <li>
+                <article>
+                    <h3>Wren</h3>
+                    <p>Wren is a calm alligator who enjoys sunbathing by the water.</p>
+                    <a href="https://en.wikipedia.org/wiki/Alligator" target="_blank">More about alligators</a>
+                    <img src="wren.jpg" alt="Wren the Alligator">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Aspen</h3>
+                    <p>Aspen is known for her sharp teeth and quick movements.</p>
+                    <a href="https://en.wikipedia.org/wiki/Alligator" target="_blank">More about alligators</a>
+                    <img src="aspen.jpg" alt="Aspen the Alligator">
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Mika</h3>
+                    <p>Mika is the oldest alligator in the zoo, with a strong and wise demeanor.</p>
+                    <a href="https://en.wikipedia.org/wiki/Alligator" target="_blank">More about alligators</a>
+                    <img src="mika.jpg" alt="Mika the Alligator">
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Zoo Animal Information. All rights reserved.</p>
+    </footer>
+</body>
+</html>
